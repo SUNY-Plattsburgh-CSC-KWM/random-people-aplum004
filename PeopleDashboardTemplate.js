@@ -1,4 +1,5 @@
-
+console.log("JS file loaded");
+$(document).ready(function() {
 async function getPeople() {
 	try {
 		const response = await fetch("https://randomuser.me/api/?results=25&nat=us");
@@ -46,3 +47,4 @@ async function buildTable() {
 	}
 }
 buildTable();
+});
