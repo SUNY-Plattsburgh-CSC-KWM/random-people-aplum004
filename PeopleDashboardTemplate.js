@@ -45,4 +45,4 @@ async function buildTable() {
 		console.log("Error " + e);
 	}
 }
-
+buildTable();
